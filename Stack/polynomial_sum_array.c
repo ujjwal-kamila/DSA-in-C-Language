@@ -1,3 +1,5 @@
+//Polynomial sum in C 
+
 #include <stdio.h>
 void addPolynomials(int poly1[], int poly2[], int result[],
                     int m, int n)
