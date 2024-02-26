@@ -1,4 +1,4 @@
-//C Program to insert Elements at any poisition in an array
+//C Program to insert Elements after all the array elemets in an array
 
 
 #include<stdio.h>
@@ -7,7 +7,7 @@
 
 int main() {
     int arr[MAX_SIZE];
-    int i , size , num , pos;
+    int i , size , num ;
     //input Array size
     printf("Enter size of the array : ");
     scanf("%d",&size);
@@ -27,12 +27,10 @@ int main() {
         }
         printf("Enter data to insert : ");
         scanf("%d",&num);
-//shift other elements to make space for the new element as arr[i] = num then rest will shifted
-        for (i = size-1 ; i>= 0 ; i--) {
-            arr[i+1] = arr[i];
-        }
-            arr[0] = num ;  //arr[1]= num;
-            size++ ;
+
+        //to insert after the array elements
+        arr[size] = num;
+        size++;
 
         //Display elements
         printf("The array elements are :  ");

@@ -6,19 +6,21 @@
 int main () {
     int arr[MAX_SIZE];
     int i , size , num , pos;
-    printf("Enter the size of the array : ",MAX_SIZE);
+
+    //input Array size 
+    printf("Enter the size of the array : ");
     scanf("%d",&size);
     
     // Exiting program due to invalid array size
     if(size<= 0 || size > MAX_SIZE)
     {
-        printf("Overflow :)");
+        printf("Invalid Array Size ");
         return 1;
     }
-
     else 
     {
         printf("Enter elemetns of the array : ");
+        //Input elements of array as per input size 
         for (i = 0 ; i < size ; i++)
         {
             scanf("%d",&arr[i]);
@@ -34,7 +36,7 @@ int main () {
         printf("Enter data to insert : " );
         scanf("%d",&num);
 
-        printf("Enter Poisition  to insert : ", size+1 );
+        printf("Enter Poisition  to insert : ");
         scanf("%d",&pos);
 
     //Check for invalid position
@@ -44,7 +46,7 @@ int main () {
         }
 
     // Shift elements to make space for the new element
-        for (i = size -1; i > pos-1 ; i--)
+        for (i = size -1; i >= pos-1 ; i--)
         {
             arr[i+1] = arr[i];
         }

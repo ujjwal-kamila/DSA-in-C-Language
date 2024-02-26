@@ -1,13 +1,12 @@
-//C Program to insert Elements at any poisition in an array
+//C Program to delet data from Begining in an array
 
 
-#include<stdio.h>
-
+#include <stdio.h>
 #define MAX_SIZE 50
 
 int main() {
     int arr[MAX_SIZE];
-    int i , size , num , pos;
+    int i , size,pos;
     //input Array size
     printf("Enter size of the array : ");
     scanf("%d",&size);
@@ -25,14 +24,12 @@ int main() {
             
             scanf("%d",&arr[i]);
         }
-        printf("Enter data to insert : ");
-        scanf("%d",&num);
-//shift other elements to make space for the new element as arr[i] = num then rest will shifted
-        for (i = size-1 ; i>= 0 ; i--) {
-            arr[i+1] = arr[i];
-        }
-            arr[0] = num ;  //arr[1]= num;
-            size++ ;
+
+        //For delet data from begining 
+        for(i = 0 ; i< size -1 ; i++) {
+                arr[i] = arr[i+1];
+            }
+        size --;
 
         //Display elements
         printf("The array elements are :  ");

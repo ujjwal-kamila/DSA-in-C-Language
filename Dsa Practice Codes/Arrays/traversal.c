@@ -1,4 +1,4 @@
-//Array 
+//Array insertion in C
 #include <stdio.h>
 
 int main () {
