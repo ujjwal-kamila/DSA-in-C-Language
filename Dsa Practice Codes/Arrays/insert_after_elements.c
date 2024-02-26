@@ -1,6 +1,5 @@
 //C Program to insert Elements after all the array elemets in an array
 
-
 #include<stdio.h>
 
 #define MAX_SIZE 50
@@ -32,7 +31,7 @@ int main() {
         arr[size] = num;
         size++;
 
-        //Display elements
+        //Display Array elements
         printf("The array elements are :  ");
         for ( i = 0 ; i <size ; i++) {
             printf("%d  ",arr[i]);
