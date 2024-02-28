@@ -6,7 +6,7 @@
 
 int main() {
     int arr[MAX_SIZE];
-    int i , size,pos;
+    int i , size,pos , del_item;
     //input Array size
     printf("Enter size of the array : ");
     scanf("%d",&size);
@@ -33,11 +33,13 @@ int main() {
 
         }
         else {
+            del_item = arr[pos-1];
             for(i = pos-1 ; i< size -1 ; i++) {
                 arr[i] = arr[i+1];
             }
         size --;
         }
+        printf("The Deleted item is : %d ",del_item);
 
         //Display Array elements
         printf("The array elements are :  ");

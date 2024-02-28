@@ -1,4 +1,4 @@
-//C Program to insert Elements at specifice poisition in an array
+// C Program to insert Elements at specifice poisition in an array
 
 #include <stdio.h>
 #define MAX_SIZE 50
@@ -61,4 +61,4 @@ int main () {
         }
     }
     return 0;
-}
+} 
