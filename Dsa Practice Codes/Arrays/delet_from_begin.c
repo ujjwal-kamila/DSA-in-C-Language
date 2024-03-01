@@ -1,5 +1,6 @@
  //C Program to delet data from Begining in an array
 
+
 #include <stdio.h>
 #define MAX_SIZE 50
 
