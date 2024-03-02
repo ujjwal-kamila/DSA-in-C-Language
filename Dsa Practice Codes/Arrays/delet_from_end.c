@@ -26,7 +26,7 @@ int main () {
                 scanf("%d",&arr[i]);
         }
 
-        //Print the item to be deleted 
+        //Display the item to be deleted 
         del_item = arr[size-1];
         printf("Deleted Data item is :  %d\n",del_item);
 
