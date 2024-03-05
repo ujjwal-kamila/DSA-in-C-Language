@@ -1,3 +1,4 @@
+//Merge sort program in C
 #include <stdio.h>
 void merge(int arr[], int l, int m, int r)
 {
