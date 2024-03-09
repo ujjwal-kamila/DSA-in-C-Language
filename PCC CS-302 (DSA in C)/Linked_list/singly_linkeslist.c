@@ -1,3 +1,4 @@
+//singly linkes list all operation
 #include <stdio.h>
 #include <stdlib.h>
 struct node
