@@ -1,4 +1,4 @@
-//Binary Search Prorgram
+//Binary Search Prorgram in c 
 #include <stdio.h>
 int main()
 {
