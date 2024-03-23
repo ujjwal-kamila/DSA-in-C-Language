@@ -26,7 +26,6 @@ int main() {
         }
         printf("Enter data to insert : ");
         scanf("%d",&num);
-
         //to insert after the array elements
         arr[size] = num;
         size++;
