@@ -25,6 +25,11 @@ int main () {
         for(i=0 ; i<size ; i++){
                 scanf("%d",&arr[i]);
         }
+        //printing the insertion array
+        printf("The input array elements are :  ");
+        for ( i = 0 ; i <size ; i++) {
+            printf("%d  ",arr[i]);
+        }
 
         //Display the item to be deleted 
         del_item = arr[size-1];
@@ -34,7 +39,7 @@ int main () {
         size--;
 
         //Printing the array after deletion
-        printf("Upodated array elements are : ");
+        printf("Updated array elements are : ");
 
         for (i = 0 ; i <size ; i++){
             printf(" %d  ",arr[i]);

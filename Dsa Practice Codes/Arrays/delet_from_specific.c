@@ -1,6 +1,5 @@
 //C Program to delet data at specific poisition in an array
 
-
 #include <stdio.h>
 #define MAX_SIZE 50
 
@@ -23,6 +22,12 @@ int main() {
         for (i = 0 ; i < size ; i++){
             
             scanf("%d",&arr[i]);
+        }
+
+        //printing the inserted array
+        printf("The input array elements are :  ");
+        for ( i = 0 ; i <size ; i++) {
+            printf("%d  ",arr[i]);
         }
         printf("Enter positon to delet : ");
         scanf("%d",&pos);
