@@ -9,7 +9,7 @@ struct Node {
 void linkedTraversal(struct Node * ptr){
     while(ptr!=NULL)
     {
-        printf("Element is : %d\n",ptr->data);
+        printf("Element is : %d \n",ptr->data);
         ptr = ptr->next;
     }
 }
