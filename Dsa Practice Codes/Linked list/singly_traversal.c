@@ -29,7 +29,7 @@ int main()
 
         if (head == NULL)
         {
-            head = temp =  newnode; // If list is empty, make new node as head
+            head =temp =  newnode; // If list is empty, make new node as head
         }
         else
         {
@@ -49,5 +49,6 @@ int main()
         temp = temp->next;
         // count++ for display how many no of nodes
     }
-    return 0;
+      free(temp);
+        return 0;
 }
