@@ -1,3 +1,4 @@
+//singly linked list traversal 
 #include <stdio.h>
 #include <stdlib.h>
 
