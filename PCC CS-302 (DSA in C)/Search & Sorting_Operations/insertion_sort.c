@@ -31,7 +31,7 @@ int main()
     for (i = 1; i < n; i++)
     {
         j = i;
-        // Shift elements of arr[0..i-1], that are greater than key, to one position ahead
+        // Shift elements of arr[0..i-1], that a4e greater than key, to one position ahead
         // of their current position
         while (j > 0 && arr[j - 1] > arr[j])
         {
@@ -46,7 +46,7 @@ int main()
     printf("Sorted list in ascending order:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d ", arr[i]);
+        printf("%d  ", arr[i]);
     }
     return 0;
 }
