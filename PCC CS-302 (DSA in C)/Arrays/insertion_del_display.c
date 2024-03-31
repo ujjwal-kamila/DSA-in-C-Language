@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define max_size 50
-// Function to insert an element into the array at a specified position
+
 int insertElement(int arr[], int size, int element, int position) {
     // Check if the array is full
     if (size == max_size) {
@@ -20,7 +20,7 @@ int insertElement(int arr[], int size, int element, int position) {
     arr[position] = element;
     return size + 1;
 }
-// Function to delete an element from the array at a specified position
+
 int deleteElement(int arr[], int size, int position) {
     // Check if the array is empty
     if (size == 0) {
@@ -38,7 +38,7 @@ int deleteElement(int arr[], int size, int position) {
     }
     return size - 1;
 }
-// Function to display the elements of the array
+
 void displayArray(int arr[], int size) {
     if (size == 0) {
         printf("Array is empty.\n");

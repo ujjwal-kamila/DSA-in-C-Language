@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_SIZE 5
+#define MAX_SIZE 50
 
 struct Queue {
     int front, rear;

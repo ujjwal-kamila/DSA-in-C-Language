@@ -28,10 +28,15 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
+    printf("The Given array is :\n");
+    for (i = 0; i < n; i++) {
+        printf("%d  ", arr[i]);
+    }
+
     // Sorting the array using insertionSort function
     insertionSort(arr, n);
 
-    printf("Sorted list in ascending order:\n");
+    printf("\nSorted list in ascending order:\n");
     for (i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }

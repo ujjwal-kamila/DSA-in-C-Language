@@ -50,7 +50,7 @@ int deleteElement(int arr[], int *size, int position) {
     }
 
     // Decrement the size of the array
-    (*size)--;
+    *size--;
 
     return 1;  // Indicate success
 }
