@@ -22,7 +22,7 @@ int partition(int arr[], int low, int high)
 }
 
 
-//quick sort function 
+//quick sort function  
 void quickSort(int arr[], int low, int high)
 {
     if (low < high)
