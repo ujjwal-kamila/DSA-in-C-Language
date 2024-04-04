@@ -1,6 +1,7 @@
 //Polynomial sum in C 
 
 #include <stdio.h>
+//function for polynomical sum 
 void addPolynomials(int poly1[], int poly2[], int result[],int m, int n)
 {
     int i = 0, j = 0, k = 0;
