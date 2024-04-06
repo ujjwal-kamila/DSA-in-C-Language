@@ -40,6 +40,7 @@ void merge(int arr[], int l, int m, int r)
         k++;
     }
 }
+//merge sort program
 void mergeSort(int arr[], int l, int r)
 {
     if (l < r)
