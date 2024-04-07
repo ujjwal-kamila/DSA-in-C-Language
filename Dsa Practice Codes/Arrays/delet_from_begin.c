@@ -23,7 +23,7 @@ int main() {
             
             scanf("%d",&arr[i]);
         }
-        //printinf the input array
+        //print in the input array
         printf("The input array elements are :  ");
         for ( i = 0 ; i <size ; i++) {
             printf("%d  ",arr[i]);
