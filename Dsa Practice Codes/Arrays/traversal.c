@@ -3,6 +3,7 @@
 #define MAX_SIZE 50
 
 void main() {
+    //taking max size 
     int arr[MAX_SIZE], size, i;
     
     // Tell user to enter the size of the array
