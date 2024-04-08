@@ -1,5 +1,4 @@
  //C Program to delet data from Begining in an array
-
 #include <stdio.h>
 #define MAX_SIZE 50
 
@@ -33,7 +32,7 @@ int main() {
         del_item = arr[0];
         printf("Deleted item is : %d\n", del_item);
 
-        //For delet data from begining 
+        //For delet data from begining of the array
         for(i = 0 ; i< size -1 ; i++) {
                 arr[i] = arr[i+1];
             }
