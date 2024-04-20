@@ -40,7 +40,7 @@ int main() {
     struct Node* head = NULL;
     insertAtBeginning(&head, 5);
     insertAtBeginning(&head, 100);
-    printf("List after predefined operations: ");
+    printf("List after operations: ");
     displayList(head);
 
     return 0;
