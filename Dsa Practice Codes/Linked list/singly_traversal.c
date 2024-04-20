@@ -48,7 +48,6 @@ int main()
     {
         printf("%d ", temp->data);
         temp = temp->next;
-        // count++ for display how many no of nodes
     }
       free(temp);
         return 0;
