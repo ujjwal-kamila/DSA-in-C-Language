@@ -37,7 +37,6 @@ int main() {
                 arr[i] = arr[i+1];
             }
         size --;
-
         //Display elements
         printf("The array elements are :  ");
         for ( i = 0 ; i <size ; i++) {
