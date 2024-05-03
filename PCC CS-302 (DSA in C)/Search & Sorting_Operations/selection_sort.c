@@ -27,10 +27,9 @@ int main() {
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
     // Sorting the array using selectionSort function
     selectionSort(arr, n);
-
+    //printing the sorted lists
     printf("Sorted list in ascending order:\n");
     for (i = 0; i < n; i++) {
         printf("%d ", arr[i]);
